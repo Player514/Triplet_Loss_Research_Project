@@ -1,4 +1,4 @@
-# Emma's Weekly Meeting Notes
+# Andreas's Weekly Meeting Notes
 
 * [28 October 2021](#date-28-october-2021)
 * [4 November 2021](#date-4-November-2021)
@@ -8,29 +8,24 @@
 
 #### What did you achieve?
 
-Dowload and Run triplet loss 
-
+Dowload and Run triplet loss. Attempt of convert triplet loss from tf1 to tf2. Dicom format to arraylist conversion.
 
 #### What did you struggle with?
 
-* Replace this text with a bullet point list of where you struggled this week.
-* It's ok if your list is only one bullet point long!
+Converting triplet loss to tensorflow v2. 
 
 #### What would you like to work on next week?
 
-* Replace this text with a bullet point list of what you would like to work on next week.
-* It's ok if your list is only one bullet point long!
-* Try to estimate how long each task will take.
+Run model of subset of data. 
 
-#### Where do you need help from Kirstie?
+#### Questions?
 
-* Replace this text with a bullet point list of what you need help from Kirstie on.
-* It's ok if your list is only one bullet point long!
-* Try to estimate how long each task will take.
+The model input for triplet loss is only 28 by 28. The dicom picture are 4000 by 6000. Can we compress in order to improve performance 
 
-#### Any other topics
 
-This space is yours to add to as needed.
+
+
+
 ### Date: [Template]
 
 #### What did you achieve?
