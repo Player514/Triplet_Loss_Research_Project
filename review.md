@@ -2,6 +2,7 @@
 
 * [28 October 2021](#date-28-october-2021)
 * [4 November 2021](#date-4-November-2021)
+* [25 November 2021](#date-25-November-2021)
 * [Template](#template-date-dd-month-yyyy)
 
 ### Date: 28 October 2021
@@ -22,6 +23,23 @@ Run model of subset of data.
 
 The model input for triplet loss is only 28 by 28. The dicom picture are 4000 by 6000. Can we compress in order to improve performance 
 
+### Date: 25 Novemeber 2021
+
+#### What did you achieve?
+
+Running triplet loss with subsectioning of data via resnet50, random, and class specific.
+
+#### What did you struggle with?
+
+Nothing I couldn't figure out.
+
+#### What would you like to work on next week?
+
+Scaling, cleaner workflow
+
+#### Questions?
+
+None so far.
 
 
 
