@@ -57,7 +57,7 @@ def read(file_path, **kwargs):
     if 'debug' in kwargs:
         print(ds.pixel_array.shape)
     if 'reshape' in kwargs:
-        return resize(ds.pixel_array,kwargs['reshape'])
+        return resize(ds.pixel_array,kwargs['shape'])
     return ds.pixel_array
 
 def resize(img, new_shape):
@@ -67,6 +67,6 @@ def resize(img, new_shape):
 if __name__ == "__main__":
     fpath = get_testdata_file('CT_small.dcm')
     print(fpath)
-    fpath = "train\ISIC_0015719.dcm"
+    fpath = "train/ISIC_0015719.dcm"
     ds = dcmread(fpath)
     show(ds)
